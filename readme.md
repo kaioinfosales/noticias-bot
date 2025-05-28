@@ -48,9 +48,10 @@ pip install -r requirements.txt
 ```
 
 Edite suas informações no .env
-
+```bash
 TELEGRAM_TOKEN=seu_token_aqui
 CANAL_ID=@seucanal_ou_id
+```
 
 ```bash
 python bot.py
