@@ -2,6 +2,20 @@
 
 Um bot que busca automaticamente notícias sobre **golpes, fraudes, malware, vazamentos de dados e dicas de segurança** em fontes brasileiras confiáveis e envia para um canal do Telegram.
 
+📡 Fontes RSS utilizadas
+Canaltech (busca por "golpes")
+
+TecMundo (tag "golpes-e-fraudes")
+
+Olhar Digital
+
+CISO Advisor
+
+Serpro
+
+Fontes internacionais também podem ser utilizadas, 
+pois o tradutor já está integrado.
+
 ---
 
 ## 🚀 Funcionalidades
@@ -47,3 +61,6 @@ Para rodar em segundo plano
 ```bash
 nohup python bot.py &
 ```
+
+📌 Autor
+Desenvolvido por [Kaio Sales] - 💻 Segurança, Automação e Bots
