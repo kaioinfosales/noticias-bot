@@ -22,3 +22,28 @@ Um bot que busca automaticamente notícias sobre **golpes, fraudes, malware, vaz
 ```bash
 git clone https://github.com/kaioinfosales/noticias-bot.git
 cd noticias-bot
+```
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+Edite suas informações no .env
+
+TELEGRAM_TOKEN=seu_token_aqui
+CANAL_ID=@seucanal_ou_id
+
+```bash
+python bot.py
+```
+
+Para rodar em segundo plano
+
+```bash
+nohup python bot.py &
+```
